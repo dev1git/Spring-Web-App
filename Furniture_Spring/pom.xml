@@ -83,6 +83,19 @@
 		</dependency>
 	</dependencies>
 
+        <distributionManagement>
+	<repository>
+		<id>nexus</id>
+		<name>Release-Repo</name>
+		<url>http://3.91.82.190:9980/nexus/repository/wallmart-release</url>
+	</repository>
+	<snapshotRepository>
+		<id>nexus</id>
+		<name>Release-Repo</name>
+		<url>http://3.91.82.190:9980/nexus/repository/wallmart-release</url>
+	</snapshotRepository>
+	</distributionManagement>
+	
 	<build>
 		<pluginManagement>
 			<plugins>
